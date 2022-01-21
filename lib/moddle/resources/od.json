@@ -138,6 +138,25 @@
       ]
     },
     {
+      "name": "Actor",
+      "superClass": [
+        "BoardElement"
+      ],
+      "properties": [
+        {
+          "name": "attributeValues",
+          "isAttr": true,
+          "type": "String"
+        },
+        {
+          "name": "links",
+          "isMany": true,
+          "type": "Link",
+          "isReference": true
+        }
+      ]
+    },
+    {
       "name": "Link",
       "superClass": [
         "BoardElement"
