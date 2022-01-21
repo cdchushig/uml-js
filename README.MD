@@ -1,24 +1,10 @@
-## Object diagram modeler
+uml-js
+=====
 
-This folder contains the source code for an [object diagram modeler](https://timkraeuter.com/object-diagram-modeler/) based on **diagram-js**.
+This project was based on **diagram-js**.
 
-## Development
+Contains parts of ([bpmn-io](https://github.com/bpmn-io)) released under the [bpmn.io license](http://bpmn.io/license).
 
-### Installing dependencies
-```console
-npm i
-cd starter
-npm i
-```
+## Acknowledgments
 
-### Running the modeler
-```console
-cd starter
-npm run dev
-```
-
-### Deploy changes to github-pages
-```console
-cd starter
-npm run build:github-pages
-```
+This project used [postit-js](https://github.com/pinussilvestrus/postit-js) and [object diagram modeler](https://timkraeuter.com/object-diagram-modeler/).
