@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<od:definitions xmlns:od="http://tk/schema/od" xmlns:odDi="http://tk/schema/odDi" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC">
+  <od:odBoard id="Board_debug">
+    <od:object name="ClassExample" id="Object_178yfzj" attributeValues="-methodA()" />
+  </od:odBoard>
+  <odDi:odRootBoard id="RootBoard_debug">
+    <odDi:odPlane id="Plane_debug" boardElement="Board_debug">
+      <odDi:odShape id="Object_178yfzj_di" boardElement="Object_178yfzj">
+        <dc:Bounds x="230" y="200" width="150" height="90" />
+      </odDi:odShape>
+    </odDi:odPlane>
+  </odDi:odRootBoard>
+</od:definitions>
